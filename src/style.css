@@ -1,0 +1,630 @@
+header {
+    display: flex;
+    justify-content: space-around;
+  }
+  .brand-title {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .brand-menu {
+    font-size: 20px;
+  }
+  .brand-menu span {
+    margin-right: 20px;
+  }
+  .brand-icons {
+    font-size: 20px;
+  }
+  .brand-icons span {
+    margin-right: 20px;
+  }
+  .brand-offer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+  }
+  .brand-nav {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    height: 450px;
+    margin-top: 10px;
+  }
+  .women {
+    background-image: url("../public/images/women_image.jpg");
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    opacity: 0.7;
+  }
+  .men {
+    background-image: url("../public/images/men-image.jpg");
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    opacity: 0.7;
+  }
+  .kids {
+    background-image: url("../public/images/kids-image.webp");
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    opacity: 0.7;
+  }
+  .women:hover {
+    opacity: 1;
+  }
+  .men:hover {
+    opacity: 1;
+  }
+  .kids:hover {
+    opacity: 1;
+  }
+  .banner-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+  }
+  .women button {
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    border: none;
+  }
+  .men button {
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    border: none;
+  }
+  .kids button {
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    border: none;
+  }
+  .shopping_benfits {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    background-color: white;
+    box-shadow: 1px 1px 1px lightgray;
+    margin-left: 250px;
+    padding: 20px;
+  }
+  .free-shipping {
+    display: flex;
+    flex-direction: row;
+  }
+  .content {
+    margin-left: 10px;
+  }
+  .content_heading {
+    color: rgb(45, 45, 45);
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .content-information {
+    color: gray;
+  }
+  .new-collection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .new-collection1 {
+    color: gray;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: arial;
+  }
+  .best-price {
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: arial;
+  }
+  .collection-details {
+    color: rgb(102, 101, 101);
+    font-size: 17px;
+    font-family: arial;
+  }
+  .row1 {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .row2 {
+    display: flex;
+  }
+  /* new collection css */
+  .collection_items {
+    height: 900px;
+    width: 1100px;
+    margin: 20px;
+  }
+  
+  .bags-collection {
+    height: 400px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../public/images/bag.png");
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .text-style {
+    color:white;
+    font-family:arial;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .buttoncss {
+    color:white;
+    font-family:arial;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top:15px;
+  
+  }
+  .printedmen_shirts {
+    height: 400px;
+    width: 770px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../public/images/men.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+  }
+  .text-style1 {
+    color:black;
+    font-family:arial;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left:-260px;
+    
+  }
+  .buttoncss1 {
+    color:black;
+    font-family:arial;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left:-400px;
+    margin-top:15px;
+  }
+  .buttoncss2 {
+    color:black;
+    font-family:arial;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left:-455px;
+    margin-top:15px;
+  
+  }
+  
+  .women_dresses {
+    height: 400px;
+    width: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../public/images/women_dress.webp");
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .sweatshirts {
+    height: 400px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../public/images/sweaters_image.webp");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .buttoncss {
+    transform: translate(0px,0px);
+    transition:2s;
+  }
+  .buttoncss:hover  {
+    transform: translate(10px,0px);
+    transition:2s;
+  }
+  .buttoncss1:hover {
+    transform: translate(10px,0px);
+    transition:2s;
+  }
+  .buttoncss2:hover {
+    transform: translate(10px,0px);
+    transition:2s;
+  }
+  .bags-collection {
+  
+    transform: translate(0px,0px);
+    transition:2s;
+  }
+  .bags-collection:hover {
+    transform: translate(15px,0px);
+    transition:2s;
+    position:sticky;
+  }
+  .printedmen_shirts {
+    transform: translate(0px,0px);
+    transition:2s;
+  
+  }
+  .printedmen_shirts:hover {
+    transform: translate(15px,0px);
+    transition:2s;
+  
+  }
+  .women_dresses {
+    transform: translate(0px,0px);
+    transition:2s;
+  }
+  .women_dresses:hover {
+    transform: translate(15px,0px);
+    transition:2s;
+  }
+  .sweatshirts {
+    transform: translate(0px,0px);
+    transition:2s;
+  }
+  .sweatshirts:hover {
+    transform: translate(15px,0px);
+    transition:2s;
+  }
+  .sellers-heading {
+    font-size: 30px;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+  }
+  .family-sellers {
+    text-align: center;
+  }
+  .family-sellers span {
+    margin-left: 15px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    font-family: arial;
+  }
+  .style1 {
+    padding-top: 25px;
+    color: rgb(99, 97, 97);
+    font-size: 15px;
+    font-family: arial;
+  }
+  .style2 {
+    color: black;
+    font-size: 15px;
+    font-family: arial;
+  }
+  .style3 {
+    color: rgb(99, 97, 97);
+    font-size: 15px;
+    font-family: arial;
+    font-weight: bold;
+  }
+  .sellerscart-list {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    margin-top: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+  .sellerscart-list .sellers-cards {
+    margin-bottom: 50px;
+  }
+  .discover-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../public/images/slippersscreenshot.png");
+    height: 600px;
+    width: 100%;
+    margin-bottom:90px;
+    font-weight: bold;
+    font-family: arial;
+  }
+  .discover-more {
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      margin-top:-60px;
+      height:200px;
+      text-decoration:underline;
+      font-family: arial;
+  
+  }
+  .discover-more:hover {
+      text-decoration: none;
+  }
+  .discover-img pre {
+      color:black;
+      float:right;
+      margin-top:100px;
+      margin-right:320px;
+      font-size: 35px;
+  }
+  .discover-img p {
+    color:red;
+    padding-left:800px;
+    font-size:50px;
+    font-family: arial;
+    font-weight: bold;
+    opacity: 0.6;
+  }
+  .time {
+    color:gray;
+    font-size:15px;
+    padding-left:820px;
+  }
+  .time span{
+    margin-right:50px;
+  }
+  .days {
+    margin-left:20px;
+  }
+  .hours {
+      margin-left:40px;
+    }
+    .minutes {
+      margin-left:30px;
+    }
+  
+  .slipper-button {
+      background-color:black;
+      color:white;
+      height:45px;
+      width:150px;
+      text-align:center;
+      padding:9px;
+      float:right;
+      margin-right:-500px;
+      margin-top:100px;
+  }
+  
+  /* .sellers-extrainformation p {
+          text-align: center;
+          margin-top: 50px;
+          color: rgb(68, 67, 67);
+          font-weight: bold;
+          font-family: arial;
+        }
+     .slipper-image {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("../images/slipperimage.jpeg");
+             
+  
+     } */
+  
+  .review-text1 {
+    font-size: 12px;
+    font-family: arial;
+    font-family: bold;
+    color: rgb(73, 73, 73);
+  }
+  .review-text2 {
+    font-size: 35px;
+    font-family: arial;
+    font-weight: bold;
+    color: black;
+  }
+  .reviews {
+    text-align: center;
+  }
+  
+  .review-card1 {
+    height: 330px;
+    width: 400px;
+    border: 1px solid lightgray;
+    background-color: white;
+    margin-left: 30px;
+  }
+  .latest-reviews {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+  }
+  .review-carddetails {
+    display: flex;
+  }
+  .card-img img {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .card1-details {
+    margin-left: -220px;
+    margin-top: 40px;
+  }
+  .card-reviewdetails pre {
+    margin-left: -25px;
+    font-size: 18px;
+    font-family: arial;
+    color: gray;
+  }
+  .card-reviewdetails-1 {
+    margin-top: -30px;
+    margin-left: 30px;
+    font-size: 14px;
+    font-family: arial;
+    color: rgb(130, 129, 129);
+  }
+  /* @shopper style */
+  .shopper-brands {
+    background-color: rgb(241, 246, 242);
+    height: 630px;
+    width: 100%;
+  }
+  .shopper-container {
+    text-align: center;
+  }
+  
+  .shopper-images {
+    display: flex;
+    margin-left: 180px;
+    margin-top: 60px;
+  }
+  .shopper-cards {
+    margin-right: 10px;
+  }
+  .shoper {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: arial;
+  }
+  .shopper-text,
+  .bershka {
+    font-family: arial;
+    font-size: 16px;
+    color: rgb(82, 81, 81);
+  }
+  figure {
+    margin-bottom: 50px;
+  }
+  
+  .shopper-texts,
+  .bershka {
+    font-size: 30px;
+    font-weight: bold;
+    color: gray;
+  }
+  #reebok {
+    margin-left: -50px;
+  }
+  #asos {
+    margin-left: -35px;
+  }
+  #stradivarius {
+    margin-left: -120px;
+  }
+  #adidas {
+    margin-left: -70px;
+    margin-right: 30px;
+  }
+  #bershkas {
+    font-size: 30px;
+  }
+  /*  footer style */
+  footer {
+    height: 620px;
+    width: 100%;
+    background-color: rgb(46, 45, 45);
+    color: white;
+  }
+  .footer-heading {
+    font-size: 25px;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 30px;
+  }
+  .footer-forms {
+    margin-left: 500px;
+  }
+  .footer-forms input {
+    height: 60px;
+    width: 400px;
+    background-color: rgb(56, 55, 55);
+    border: none;
+  }
+  input::placeholder {
+    color: white;
+    padding-left: 30px;
+  }
+  .footer-forms button {
+    margin-left: 20px;
+    height: 60px;
+    width: 150px;
+    background-color: rgb(90, 89, 89);
+    color: white;
+    font-family: sans-serif;
+    border:none;
+  }
+  footer ul {
+    color: white;
+    list-style: none;
+  }
+  .footer-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+  
+    margin-top: 80px;
+  }
+  .footer-1 div {
+    margin-right: 50px;
+  }
+  .brand-footer {
+    font-size: 27px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    margin-top: -85px;
+  }
+  
+  .social-bar span {
+    margin-right: 10px;
+    color: gray;
+  }
+  .special-name {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: arial;
+    margin-bottom: 20px;
+  }
+  .special-namesall {
+    color: rgb(188, 187, 187);
+  }
+  .footer-3 {
+    /* height:150px; */
+    width: 100%;
+    border: 1px solid gray;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+  }
+  .footer-last {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+  }
+  .copyright-symbol {
+    color: gray;
+    font-size: 13px;
+  }
+  
+  
+  
